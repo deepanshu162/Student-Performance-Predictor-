@@ -35,6 +35,21 @@ It is designed to be <strong>modular, reusable, and beginner-friendly</strong>, 
 
 <hr>
 
+<h2>🚀 Steps to Run the Program</h2>
+
+<p> Run the following Python files in the same order:</p>
+
+<ul>
+    <li><strong>analyze_data.py</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Optional step</li>
+    <li><strong>load_and_eda.py</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Optional step</li>
+    <li><strong>preprocess.py</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Necessary step</li>
+    <li><strong>train_model.py</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Necessary step</li>
+    <li><strong>evaluate_model.py</strong>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Optional step</li>
+    <li><strong>predict.py</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Necessary step</li>
+</ul>
+<p>explained in more detail later.</p>
+
+<hr>
 <h2>🗂️ Project Structure</h2>
 
 <pre>
@@ -46,11 +61,8 @@ Student-Performance-Predictor
 ├── preprocess.py
 ├── train_model.py
 ├── evaluate_model.py
-├── predict.py
-├── model.pkl
-├── preprocessor.pkl
-├── .tmp/
-└── README.html
+└── predict.py
+
 </pre>
 
 <hr>
@@ -171,9 +183,4 @@ python predict.py --hours_studied 6 --previous_scores 78 --extracurricular_activ
 Data Science & Machine Learning Enthusiast
 </p>
 
-<hr>
-
-<p>
-⭐ If you like this project, consider starring the repository on GitHub!
-</p>
 
